@@ -10,3 +10,4 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Delhi', opti
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+
